@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "version": "0.3.2",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/crown3633/TaeHun/blob/master/%EC%97%B4%EC%9C%A0%EC%B2%B4%EA%B3%B5%ED%95%99%EC%8B%A4%ED%97%98-2014010073-HW01\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "cBMJML9wyaUA",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 197
+        },
+        "outputId": "4a9462ae-a0c0-4bc8-b463-660318869bd0"
+      },
+      "source": [
+        "x = int(input(\"x 값을 입력하세요 : \"))\n",
+        "for i in range(1,10):\n",
+        "  print(x ,\"*\", i, \"= \",i*x)"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "x 값을 입력하세요 : 5\n",
+            "5 * 1 =  5\n",
+            "5 * 2 =  10\n",
+            "5 * 3 =  15\n",
+            "5 * 4 =  20\n",
+            "5 * 5 =  25\n",
+            "5 * 6 =  30\n",
+            "5 * 7 =  35\n",
+            "5 * 8 =  40\n",
+            "5 * 9 =  45\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
